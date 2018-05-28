@@ -26,13 +26,14 @@ body {
 }
 
 .post-overlay {
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .4);
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   display: none;
+  grid-auto-flow: column;
   justify-content: center;
   align-items: center;
   color: #ffffff;
@@ -44,7 +45,7 @@ body {
 }
 
 .post:hover .post-overlay {
-  display: flex;
+  display: grid;
 }
 
 .post-likes, .post-comments {

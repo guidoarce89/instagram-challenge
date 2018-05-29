@@ -55,26 +55,19 @@ body {
 .actions a {
   display: inline-block;
   margin-left: 25px;
+  width: 24px;
+  height: 24px;
 }
 
 .explore {
-  display: block;
-  width: 24px;
-  height: 24px;
   background: url('../images/instagram-sprites.png') -359px -322px / 460px 417px;
 }
 
 .likes {
-  display: block;
-  width: 24px;
-  height: 24px;
   background: url('../images/instagram-sprites.png') -309px -322px / 460px 417px;
 }
 
 .account {
-  display: block;
-  width: 24px;
-  height: 24px;
   background: url('../images/instagram-sprites.png') -337px -352px / 460px 417px;
 }
 
